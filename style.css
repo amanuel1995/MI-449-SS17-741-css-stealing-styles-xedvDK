@@ -1,1 +1,79 @@
 /* Stylesheet for the search engine */
+.search-engine {
+  margin-top: 140px;
+}
+
+span {
+  font-size: 70px;
+  padding: 35px;
+}
+
+.green {
+  color: #98c379;
+}
+
+.blue {
+  color: #56b6c2;
+}
+
+.yellow {
+  color: #c6ad00;
+}
+
+.purple {
+  color: #b400b9;
+}
+
+.red {
+  color: #c62d48;
+}
+
+section.result {
+  padding: 20px;
+  border: 1px solid #d4dada;
+  border-radius: 3px;
+}
+
+input:focus {
+  border: 1px solid #07682c;
+  outline: 0;
+}
+
+input {
+  min-width: 900px;
+  padding: 10px;
+}
+
+.common-Button {
+  white-space: nowrap;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #7795f8;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.common-Button:active {
+  color: #555abf;
+  background-color: #f6f9fc;
+  transform: translateY(1px);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.common-Button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.search-button {
+  margin-top: 30px;
+}
