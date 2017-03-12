@@ -34,13 +34,13 @@ section.result {
   border-radius: 3px;
 }
 
-input:focus {
+input[type=text]:focus {
   border: 1px solid #07682c;
   outline: 0;
 }
 
 input {
-  min-width: 900px;
+  width: 100%;
   padding: 10px;
 }
 
